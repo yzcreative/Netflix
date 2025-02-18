@@ -9,8 +9,8 @@
   --dark-color-lighten: #F2F5FF;
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
+  --h1-font-size: 1rem;
+  --h2-font-size: 0.85rem;
   --normal-font-size: 1rem;
   --small-font-size: .875rem;
 }
