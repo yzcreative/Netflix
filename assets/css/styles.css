@@ -10,7 +10,7 @@
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1rem;
-  --h2-font-size: 0.85rem;
+  --h2-font-size: .85rem;
   --normal-font-size: 1rem;
   --small-font-size: .875rem;
 }
@@ -79,7 +79,7 @@ img {
 .card__preci {
   display: inline-block;
   font-size: var(--h2-font-size);
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 1.25rem;
 }
 
@@ -116,7 +116,7 @@ img {
 
 /* Hover card effect */
 .card:hover .card__img {
-  transform: translate(-1.5rem, -9.5rem) rotate(-20deg);
+  transform: translate(-1.5rem, -9.5rem) rotate(0deg);
 }
 
 .card:hover .card__data {
