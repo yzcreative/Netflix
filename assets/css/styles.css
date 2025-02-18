@@ -50,7 +50,7 @@ img {
 }
 
 .card {
-  width: 420px;
+  width: 380px;
   height: 500px;
   background-color: var(--dark-color);
   border-radius: 1rem;
