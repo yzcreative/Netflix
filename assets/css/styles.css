@@ -60,7 +60,7 @@ img {
 }
 
 .card__img {
-  position: absolute;
+  position: center;
   width: 260px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
 }
