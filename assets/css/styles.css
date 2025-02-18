@@ -13,6 +13,8 @@
   --h2-font-size: .85rem;
   --normal-font-size: 1rem;
   --small-font-size: .875rem;
+  --tap-font-size: .375rem;
+
 }
 
 /*===== BASE =====*/
@@ -90,6 +92,13 @@ img {
   opacity: 0;
 }
 
+.card__tap {
+  font-size: var(--tap-font-size);
+  text-align: initial;
+  margin-bottom: 1.25rem;
+  opacity: 0;
+}
+
 .card__button {
   display: block;
   width: max-content;
@@ -110,6 +119,7 @@ img {
 .card__data, 
 .card__title, 
 .card__preci, 
+.card__tap,
 .card__description {
   transition: .5s;
 }
@@ -132,7 +142,8 @@ img {
   transform: translateX(-6.8rem);
 }
 
-.card:hover .card__description, 
+.card:hover .card__description,
+.card:hover .card__tap,
 .card:hover .card__button {
   transition-delay: .2s;
   opacity: 1;
