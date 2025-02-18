@@ -50,7 +50,7 @@ img {
 }
 
 .card {
-  width: 380px;
+  width: 355px;
   height: 500px;
   background-color: var(--dark-color);
   border-radius: 1rem;
@@ -61,7 +61,7 @@ img {
 
 .card__img {
   position: center;
-  width: 260px;
+  width: 280px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
 }
 
