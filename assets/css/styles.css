@@ -116,7 +116,7 @@ img {
 
 /* Hover card effect */
 .card:hover .card__img {
-  transform: translate(-1.5rem, -9.5rem) rotate(0deg);
+  transform: translate(-1.5rem, -9.5rem) ;
 }
 
 .card:hover .card__data {
