@@ -118,15 +118,14 @@ img {
 .card__img, 
 .card__data, 
 .card__title, 
-.card__preci, 
-.card__tap,
+.card__preci,
 .card__description {
   transition: .5s;
 }
 
 /* Hover card effect */
 .card:hover .card__img {
-  transform: translate(0rem, -9.5rem) ;
+  transform: translate(0rem, -9.5rem, 0rem) ;
 }
 
 .card:hover .card__data {
