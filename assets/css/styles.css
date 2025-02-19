@@ -93,10 +93,10 @@ img {
 }
 
 .card__tap {
+  display: inline-block;
   font-size: var(--tap-font-size);
-  text-align: initial;
+  font-weight: 100;
   margin-bottom: 1.25rem;
-  opacity: 0;
 }
 
 .card__button {
