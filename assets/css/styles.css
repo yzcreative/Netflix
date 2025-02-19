@@ -96,7 +96,7 @@ img {
   display: inline-block;
   font-size: var(--tap-font-size);
   font-weight: 100;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .card__button {
