@@ -63,7 +63,7 @@ img {
 
 .card__img {
   position: absolute;
-  width: 130px;
+  width: 230px;
   filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
 }
 
@@ -125,7 +125,7 @@ img {
 
 /* Hover card effect */
 .card:hover .card__img {
-  transform: translate(1.5rem, -9.5rem) ;
+  transform: translate(0rem, -11.5rem) ;
 }
 
 .card:hover .card__data {
